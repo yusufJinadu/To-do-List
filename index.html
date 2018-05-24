@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="assets/css/toDos.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
+    <script type = "text/javascript" src = "assets/js/lib/jquery-3.3.1.min.js"></script>
+<style>
+    .done{
+    color : "gray";
+    text-decoration:"line-through" ;
+}
+</style>
+</head>
+<body>
+    <div id = "container">
+     <h1>To Do List<span id = "toggle-form"><i class="fas fa-plus-square" ></i></span></h1> 
+     <input type = "text" placeHolder = "Add Todo" > 
+     <ul class = "toDoList">
+         <li><span class = "delete"><i class="fas fa-trash"></i> </span>Read</li>
+         <li><span class = "delete"><i class="fas fa-trash"></i> </span>Sleep</li>
+         <li><span class = "delete"><i class="fas fa-trash"></i> </span>Code</li>
+     </ul> 
+    </div>
+    <script type = "text/javascript" src = "assets/js/toDos.js"></script>
+</body>
+</html>
