@@ -4,7 +4,7 @@ $("ul.toDoList").on("click","li",function(){
 })
 $("ul.toDoList").on("click","span",function(event){
     event.stopPropagation()
-    $(this).parent().fadeOut(2000,function(){
+    $(this).parent().fadeOut(300,function(){
         $(this).remove();   
     });
    //$(this).parent().remove();
